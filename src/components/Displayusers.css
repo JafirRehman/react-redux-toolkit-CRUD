@@ -1,0 +1,24 @@
+@media (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* Add responsive styles */
+@media (max-width: 768px) {
+  .button-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .button-container button {
+    margin: 10px 0;
+  }
+}
