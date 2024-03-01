@@ -13,7 +13,7 @@ const apidata=createAsyncThunk("apidata",async (users,{rejectWithValue})=>{
     body:JSON.stringify(users),
   });
   try{
-    return jsondata.json();   //return users object 
+    return jsondata.json();   //return users object but with updated values like id in that array of objects
   }catch(error){
     return rejectWithValue(error);
   }
