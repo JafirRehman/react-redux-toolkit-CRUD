@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getingrequesteddata } from "../redux/slices";
+import { apiallusers } from "../redux/slices";
 
 function Navbar() {
   const [searchdata, setSearchdata] = useState("");
@@ -9,6 +10,9 @@ function Navbar() {
   const totallength = totalusers.data.length;
 
   const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(apiallusers());
+  }, [dispatch]);
   function lookfordata(e) {
     setSearchdata(e.target.value);
   }

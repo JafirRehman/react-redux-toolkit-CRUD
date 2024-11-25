@@ -16,7 +16,7 @@ function Displayusers() {
   const jafir = useSelector((state) => state.ourslice);
   useEffect(() => {
     dispatch(apiallusers());
-  }, []);
+  }, [dispatch]);
   if (jafir.isLoading) {
     return <h1>Loading</h1>;
   }

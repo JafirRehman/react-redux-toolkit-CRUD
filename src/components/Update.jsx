@@ -16,7 +16,7 @@ export const Update = () => {
       const findinguser = gettingallusers.find((user) => user.id === id);
       setUsertoupdate(findinguser);
     }
-  }, []);
+  }, [id, gettingallusers]);
   function updatingolduser(e) {
     setUsertoupdate({ ...usertoupdate, [e.target.name]: e.target.value });
   }
