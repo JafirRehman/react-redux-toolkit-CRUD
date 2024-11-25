@@ -1,11 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
 import slices from "./slices";
 
-const store=configureStore({
-  reducer:{
-    ourslice: slices
+const store = configureStore({
+  reducer: {
+    ourslice: slices,
   },
-  devTools:true,
+  devTools: true,
 });
 
 export default store;
