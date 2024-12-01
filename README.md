@@ -2,6 +2,24 @@
 
 I build this project when i was learning react with redux toolkit. I use free api for adding user details, getting user details, updaing and deleting user details.
 
+# Some Glimpse Of this project
+
+### CREATE-USER-PAGE
+
+![CREATE-USER](public/screenshots/createuser.png)
+
+### All-USERS-Page
+
+![All-USERS](public/screenshots/allusers.png)
+
+### SEARCH-USER
+
+![SEARCH-USER](public/screenshots/search.png)
+
+### VIEW-USER
+
+![VIEW-USER](public/screenshots/viewuser.png)
+
 ## 🛠️ Setup Project
 
 To get this project up and running in your development environment, follow these step-by-step instructions.
