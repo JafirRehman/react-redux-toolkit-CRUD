@@ -25,8 +25,8 @@ function Navbar() {
         <div className="container-fluid">
           <p className="navbar-brand">RTK</p>
 
-          <div className="collapse navbar-collapse">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+          <div className=" navbar-collapse">
+            <ul className="navbar-nav mb-2 mb-lg-0">
               <li className="nav-item">
                 <a className="nav-link" href="/">
                   Create Post
